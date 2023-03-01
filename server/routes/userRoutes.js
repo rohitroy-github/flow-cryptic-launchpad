@@ -5,10 +5,10 @@ const express = require("express");
 const router = express.Router();
 
 // testRoute
-router.get("/", async (req, res) => {
+router.post("/", async (req, res) => {
   res.json({
     message:
-      "This is the Backend/ Server route for Cryptic Launchpad project. Server is all set and configured, head to the Client for Using Cryptic Launchpad. ",
+      "This is the Backend/ Server route for Cryptic Launchpad project !",
   });
 });
 
